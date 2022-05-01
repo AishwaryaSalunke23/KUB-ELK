@@ -5,8 +5,8 @@
         command: kubectl apply -f /home/ubuntu/elasticsearch-ss.yml
       - name: logstash 
         command: kubectl apply -f /home/ubuntu/logstash-deployment.yml     
-      - name: filebeat 
-        command: kubectl apply -f /home/ubuntu/filebeat-ds.yml    
+#       - name: filebeat 
+#         command: kubectl apply -f /home/ubuntu/filebeat-ds.yml    
       - name: metricbeat 
         command: kubectl apply -f /home/ubuntu/metricbeat-ds.yml    
       - name: kibana 
